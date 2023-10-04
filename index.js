@@ -1,5 +1,5 @@
 let nome = "Esdras Park";
-let experiencia = 4500;
+let experiencia = 23000;
 
 if (experiencia === 999 || experiencia <= 999){
     console.log("Ferro");
