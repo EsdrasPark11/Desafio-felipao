@@ -3,36 +3,21 @@ let experiencia = 23000;
 
 if (experiencia === 999 || experiencia <= 999){
     console.log("Ferro");
-}
-
-else if (experiencia >= 1000 && experiencia <= 1999){
+} else if (experiencia >= 1000 && experiencia <= 1999){
 	console.log("Bronze");
-} 
-
-else if (experiencia >= 2000 && experiencia <= 2999){
+} else if (experiencia >= 2000 && experiencia <= 2999){
 	console.log("Prata");
-} 
-
-else if (experiencia >= 3000 && experiencia <= 3999){	
+} else if (experiencia >= 3000 && experiencia <= 3999){	
 	console.log("Ouro");
-}
-
-else if (experiencia >= 4000 && experiencia <= 5999){
+} else if (experiencia >= 4000 && experiencia <= 5999){
 	console.log("Platina");
-}
-
-else if (experiencia >= 6000 && experiencia <=8999){
+} else if (experiencia >= 6000 && experiencia <=8999){
 	console.log("Diamente");
-}    
-
-else if (experiencia >= 9000 && experiencia <= 14999){
+} else if (experiencia >= 9000 && experiencia <= 14999){
 	console.log("Cosmico");
-}
-
-else if (experiencia >= 15000){
+} else if (experiencia >= 15000){
 	console.log("Challenger");
 }    
-
 
 console.log(nome + " Nível de XP " + experiencia)
 
